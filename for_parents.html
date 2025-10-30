@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -33,16 +33,18 @@
         </div>
 
         <div class="button">
-            <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text card-1"
+            <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text card-1 m-l-60 m-r-60"
                 style="display: flex; justify-content: center; align-items: center;">
-                <span>資料請求ページを見る</span>&nbsp;&nbsp;&nbsp; 〉
+                資料請求ページを見る >
             </a>
-            <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text card-2"
+            <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text card-1 m-r-60"
                 style="display: flex; justify-content: center; align-items: center;">
-                <span>オープンキャンパス情報を見る</span> &nbsp;&nbsp;&nbsp; 〉</a>
-            <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text card-3"
+                オープンキャンパス情報を見る >
+            </a>
+            <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text card-1 m-r-60"
                 style="display: flex; justify-content: center; align-items: center;">
-                <span>インターネット出願の詳細を見る</span> &nbsp;&nbsp;&nbsp; 〉</a>
+                インターネット出願の詳細を見る >
+            </a>
         </div>
     </section>
 
@@ -59,17 +61,11 @@
                 <h2 style="
                 font-size: 12px;
                 text-align: left;
+                color: var(--blue);
             ">−未来を託せる学びが、ここにある。−</h2>
             </div>
         </div>
     </section>
-
-    <!-- Centered GIF Section -->
-    <!-- <section class="mobile-view container">
-        <div class="gif-center-section">
-            <img src="image/for_parents/d1cac86dbd8f71dcd7f44a60a0573856.gif" alt="学生納付金・奨学金" class="centered-gif" />
-        </div>
-    </section> -->
 
     <section class="container section02">
         <div class="mobile-view section-title-wrap m-b-30">
@@ -86,19 +82,24 @@
                 </div>
             </div>
             <div class="mobile-hide section02-wrap m-b-60">
-
-                <div class="left">
-                    <h2 class="main-title" style="
+    <div class="left">
+        <div class="left-top-content">
+            <h2 class="main-title" style="
                 font-weight: 300;
                 font-size: 111px;
             ">About</h2>
-                    <h3 class="section-subtitle m-t-0 m-b-60">帝京平成大学について</h3>
+            <h3 class="section-subtitle m-t-0 m-b-60">帝京平成大学について</h3>
 
-                    <img src="image/for_parents/text.jpg" class="about-image" />
-                    <a href="https://www.thu.ac.jp/aboutus/idea" class="card-btn card-text"
-                        style="width: 82%;"><span>建学の精神・基本理念見る</span> 〉</a>
-                </div>
+            <div class="left-bottom-content">
+                <img src="image/for_parents/text.jpg" class="about-image" />
+                <a href="https://www.thu.ac.jp/aboutus/idea" class="button card-btn card-text card-1">
+                    建学の精神・基本理念見る >
+                </a>
+            </div>
+        </div>
+    </div>
                 <div class="border-line-about"></div>
+
                 <div class="right">
                     <div class="about-card m-b-30">
                         <div class="left">
@@ -107,7 +108,7 @@
                         </div>
                         <div class="right">
                             <h2 class="title">徹底的な実学教育</h2>
-                            <p class="text">帝京平成大学では、”実学”を徹底的に重視した教育や実践の場を用意。特色あるそれぞれの分野で、キャリアに直結する実践能力を身につけます。</p>
+                            <p class="text body-copy-lg">帝京平成大学では、”実学”を徹底的に重視した教育や実践の場を用意。特色あるそれぞれの分野で、キャリアに直結する実践能力を身につけます。</p>
                             <a href="https://www.thu.ac.jp/aboutus/practical" class="text">>
                                 <span>帝京平成大学の実学教育</span></a>
                         </div>
@@ -119,7 +120,7 @@
                         </div>
                         <div class="right">
                             <h2 class="title">約50種類の資格がとれる</h2>
-                            <p class="text">将来有望な資格取得のために、実学教育で全学をあげて支援を行っています。医療系の学びでは、例年全国上位の国家試験合格者を輩出しています。</p>
+                            <p class="text body-copy-lg">将来有望な資格取得のために、実学教育で全学をあげて支援を行っています。医療系の学びでは、例年全国上位の国家試験合格者を輩出しています。</p>
                             <a href="https://www.thu.ac.jp/univ/qualification" class="text">> <span>
                                     取得可能な資格一覧</span></a>
                         </div>
@@ -131,7 +132,7 @@
                         </div>
                         <div class="right">
                             <h2 class="title">首都圏に4つのキャンパス</h2>
-                            <p class="text">通学や実習先へのアクセスに便利な立地。優れたロケーションでキャンパスライフを満喫できます。
+                            <p class="text body-copy-lg">通学や実習先へのアクセスに便利な立地。優れたロケーションでキャンパスライフを満喫できます。
                             </p>
                             <a href="https://www.thu.ac.jp/campuslife/campusmap" class="text">> <span>
                                     キャンパス紹介</span></a>
@@ -144,17 +145,17 @@
                         </div>
                         <div class="right">
                             <h2 class="title">先生に相談しやすい環境がある</h2>
-                            <p class="text">
+                            <p class="text body-copy-lg">
                                 キャリアのことや生活のこと、他にも様々な話を気軽に相談できる環境を用意。クラス制で行われるフレッシュセミナーでは担任が就き、個別面談も実施。手厚いサポートで充実した大学生活を支援します。
                             </p>
-                            <a href="" class="text">> <span> 学生×教員ページを見る </span></a>
+                            <a href="" class="text mobileonly">> <span> 学生×教員ページを見る </span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mobile-view ">
-            <div class="left">
+        <div class="mobile-view">
+            <div class="mobile-section02-left">
                 <h2 class="main-title">About</h2>
                 <h3 class="section-subtitle">帝京平成大学について</h3>
 
@@ -168,8 +169,8 @@
                 </div>
                 <div class="right">
                     <h2 class="title">徹底的な実学教育</h2>
-                    <p class="text">帝京平成大学では、”実学”を徹底的に重視した教育や実践の場を用意。特色あるそれぞれの分野で、キャリアに直結する実践能力を身につけます。</p>
-                    <a href="" class="text">&gt; <span>帝京平成大学の実学教育</span></a>
+                    <p class="text body-copy-lg">帝京平成大学では、”実学”を徹底的に重視した教育や実践の場を用意。特色あるそれぞれの分野で、キャリアに直結する実践能力を身につけます。</p>
+                    <a href="https://www.thu.ac.jp/aboutus/practical" class="text">&gt; <span>帝京平成大学の実学教育</span></a>
                 </div>
             </div>
 
@@ -180,8 +181,8 @@
                 </div>
                 <div class="right">
                     <h2 class="title">約50種類の資格がとれる</h2>
-                    <p class="text">将来有望な資格取得のために、実学教育で全学をあげて支援を行っています。医療系の学びでは、例年全国上位の国家試験合格者を輩出しています。</p>
-                    <a href="" class="text">&gt; <span>取得可能な資格一覧</span></a>
+                    <p class="text body-copy-lg">将来有望な資格取得のために、実学教育で全学をあげて支援を行っています。医療系の学びでは、例年全国上位の国家試験合格者を輩出しています。</p>
+                    <a href="https://www.thu.ac.jp/univ/qualification" class="text">&gt; <span>取得可能な資格一覧</span></a>
                 </div>
             </div>
 
@@ -192,9 +193,21 @@
                 </div>
                 <div class="right">
                     <h2 class="title">首都圏に4つのキャンパス</h2>
-                    <p class="text">通学や実習先へのアクセスに便利な立地。優れたロケーションでキャンパスライフを満喫できます。
+                    <p class="text body-copy-lg">通学や実習先へのアクセスに便利な立地。優れたロケーションでキャンパスライフを満喫できます。
                     </p>
-                    <a href="" class="text">&gt; <span>キャンパス紹介</span></a>
+                    <a href="https://www.thu.ac.jp/campuslife/campusmap" class="text">&gt; <span>キャンパス紹介</span></a>
+                </div>
+            </div>
+            <div class="about-card m-b-30">
+                <div class="left"><br>
+                    <h3 class="title">About</h3>
+                    <h3 class="num">04</h3>
+                </div>
+                <div class="right">
+                    <h2 class="title">先生に相談しやすい環境がある</h2>
+                    <p class="text body-copy-lg">キャリアのことや生活のこと、他にも様々な話を気軽に相談できる環境を用意。クラス制で行われるフレッシュセミナーでは担任が就き、個別面談も実施。手厚いサポートで充実した大学生活を支援します.
+                    </p>
+                    <a href="" class="text">&gt; <span>学生×教員ページを見る</span></a>
                 </div>
             </div>
             <div style="display: flex; justify-content: center; margin: 20px 0;">
@@ -204,8 +217,8 @@
     </section>
 
 
-    <section class="container section03 m-b-88">
-        <div class=" section-title-wrap m-b-30">
+    <section class="mobile-hide container section03 m-b-88">
+        <div class="section-title-wrap m-b-30">
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
                 <h3 class="title fontsize-33">
@@ -214,6 +227,16 @@
                 </h3>
             </div>
         </div>
+        <div class="mobile-view section-title-wrap m-b-30">
+            <div class="info-box">
+                <img class="image-light" src="image/for_parents/light.png" />
+                <h3 class="title fontsize-33">
+                    帝京平成大学の<span>学費</span>や<span>奨学金</span>の制度は<br />
+                    どうなっていますか？
+                </h3>
+            </div>
+        </div>
+ 
         <div class="mobile-hide section03-warp">
             <h3 class="main-title scholarship">Tuition ・ Scholarships</h3>
             <h3 class="section-subtitle m-b-22">学生納付金・奨学金</h3>
@@ -222,7 +245,7 @@
                     <img src="image/for_parents/section03.png" />
                 </div>
                 <div class="right">
-                    <p>各学部の入学金・授業料や、月払い制度、奨学金の種類など、学費に関する情報を掲載しています。経済的な負担を軽減しながら安心して学べる制度が整っています。</p>
+                    <p class="body-copy-lg">各学部の入学金・授業料や、月払い制度、奨学金の種類など、学費に関する情報を掲載しています。経済的な負担を軽減しながら安心して学べる制度が整っています。</p>
                 </div>
             </div>
             <a href="https://www.thu.ac.jp/exam/expenses" class="click-link">
@@ -230,29 +253,18 @@
                 <span class="arrow"></span>
             </a>
         </div>
-
-
-        <!-- <div class="">
-
-            <h2 class="main-title-scholar">Tuition・Scholarships</h2>
-            <h3 class="section-subtitle">帝京平成大学について</h3>
-
-            <img height="20px" src="image/for_parents/d1cac86dbd8f71dcd7f44a60a0573856.gif">
-              <p>demosss</p>
-
-            </div> -->
     </section>
 
     <section class="mobile-hide-3 container section04">
         <h2 class="main-title-scholar">Tuition・Scholarships</h2>
-        <h3 class="section-subtitle">帝京平成大学について</h3>
+        <h3 class="section-subtitle">学生納付金・奨学金</h3>
         <div class="container-gif">
-            <img height="20px" src="image/for_parents/d1cac86dbd8f71dcd7f44a60a0573856.gif">
+            <img height="20px" src="image/for_parents/noufu.gif">
             <p class="gif-move">学生納付金・奨学金</p>
             <img class="image-gif" src="image/for_parents/section03.png">
         </div>
         <div class="container-gif ">
-            <p>各学部の入学金・授業料や、月払い制度、奨学金の種類など、学費に関する情報を掲載しています。</p>
+            <p class="body-copy-lg">各学部の入学金・授業料や、月払い制度、奨学金の種類など、学費に関する情報を掲載しています。</p>
             <p>経済的な負担を軽減しながら安心して学べる制度が整っています。</p>
         </div>
         <div class="mobile-hide" style="display: flex; justify-content: center; margin: 20px 0;">
@@ -261,11 +273,12 @@
 
         <div class="mobile-view"
             style="display: flex;justify-content: center;margin: 20px 0;margin-bottom: 48px !important;">
-            <a href="" class="card-btn-mobile-5 card-text"
-                style="display: flex; align-items: center; justify-content: center; text-align: center;">
-                <span
-                    style="text-decoration: underline; text-decoration-color: var(--white); text-decoration-thickness: 2px;">学生納付金・奨学金を見る
-                </span>&nbsp;&nbsp;&nbsp; 〉
+            <a href="" class="card-btn-mobile card-text">
+                <!-- style="display: flex; align-items: center; justify-content: center; text-align: center;"> -->
+                <span>
+                    <!-- style="text-decoration: underline; text-decoration-color: var(--white); text-decoration-thickness: 2px;"> -->
+                     学生納付金・奨学金を見る
+                </span>&nbsp; 〉
             </a>
             <br><br>
         </div>
@@ -276,7 +289,7 @@
         <div class="mobile-hide section-title-wrap m-b-30">
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
-                <h3 class="title">
+                <h3 class="title fontsize-33">
                     帝京平成大学で子供が<span>取得できる資格</span><br />
                     には、どんなものがありますか？
                 </h3>
@@ -287,7 +300,7 @@
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
                 <h3 class="title-30">
-                    帝京平成大学で子供が<span style="color: #4DDEAF;">取得できる資格</span>には、<br />
+                    帝京平成大学で子供が<span style="color: #4DDEAF;">取得できる資格</span>には、
                     どんなものがありますか？
                 </h3>
             </div>
@@ -307,7 +320,7 @@
                     <span class="border-line line-right"></span>
                     <span class="border-line line-top"></span>
                     <span class="border-line line-left"></span>
-                    <img class="left-image" src="image/for_parents/gggg3-removebg-preview.png" />
+                    <img class="left-image" src="image/for_parents/shikaku.png" />
                     <h2 class="title">資格一覧を見る</h2>
 
                     <a href="https://www.thu.ac.jp/univ/qualification" class="click-link">
@@ -316,8 +329,7 @@
                     </a>
                 </div>
                 <div class="right m-b-60">
-                    <p class="text">薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士
-                        　薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士
+                    <p class="text">保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　中学校教諭一種免許状（保健体育）　高等学校教諭一種免許状（保健体育）　特別支援学校教諭一種免許状　栄養教諭一種免許状　養護教諭二種免許状　司書教諭　学芸員　司書　児童指導員任用資格　薬剤師　毒物劇物取扱責任者　公認心理師　はり師　きゅう師　柔道整復師　看護師　保健師　助産師　受胎調節実地指導員　言語聴覚士　作業療法士　理学療法士　救急救命士　臨床工学技士　管理栄養士　栄養士　社会福祉士　社会福祉主事任用資格　精神保健福祉士　愛玩動物看護師　アスレティックトレーナー　トレーニング指導者　健康運動実践指導者　初級パラスポーツ指導員　中級パラスポーツ指導員　公認スポーツ施設管理士　国内旅行業務取扱管理者　総合旅行業務取扱管理者　観光英語検定　ホテルビジネス実務検定　簿記検定　TOEIC　IELTS　実用英語技能検定　基本情報技術者試験　ITパスポート試験　情報セキュリティマネジメント試験　Microsoft Office Specialist（MOS）　データサイエンティスト検定　カラーコーディネーター検定　色彩検定　CGクリエイター検定　マルチメディア検定　アドビ認定プロフェッショナル
                     </p>
                 </div>
             </div>
@@ -328,7 +340,7 @@
                     <span class="border-line line-top"></span>
                     <span class="border-line line-left"></span>
 
-                    <img class="left-image" src="image/for_parents/width_200__3_-removebg-preview.png" />
+                    <img class="left-image" src="image/for_parents/shoku.png" />
                     <h2 class="title">職業一覧を見る</h2>
                     <a href="https://www.thu.ac.jp/career/professional/jobs" class="click-link">
                         <span class="click-text">Click</span>
@@ -336,9 +348,7 @@
                     </a>
                 </div>
                 <div class="right m-b-60">
-                    <p class="text">薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士
-                        　薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士 </p>
-                </div>
+                    <p class="text">アパレル・ファッション業　イベントプランナー　イラストレーター、アニメ・CGクリエイター　医療ソーシャルワーカー　飲食店スタッフ　ウェディングプランナー　ウェブ・アプリディレクター、ウェブ・UXデザイナー　栄養教諭　栄養士　MR（医薬情報担当者）　看護師　管理栄養士・栄養士　学芸員　救急救命士　銀行員　グラフィックデザイナー　グランドスタッフ　警察官　言語聴覚士　ゲームクリエイター　広告代理店勤務　公認会計士　公認心理師　国家公務員　サウンドクリエイター　作業療法士　司書　司書教諭　社会福祉士　小学校教諭　証券会社勤務　商社勤務（商社営業）　商品開発　消防官　食品メーカー　書籍・雑誌編集者　心理カウンセラー　CA（客室乗務員）　児童福祉司　事務（営業事務・医療事務・経理事務など）　柔道整復師　助産師　スポーツインストラクター　スポーツ競技者（プロスポーツ選手）　スポーツ団体職員　スポーツトレーナー　生活指導員　精神保健福祉士　代理店営業　地方公務員　中学校教諭・高校教諭（保健体育）　通訳　TVディレクター・映像クリエイター・映像編集オペレーター　特別支援学校教諭　ネットワーク技術者　はり師・きゅう師　販売担当者　秘書　不動産会社勤務　フードスペシャリスト　VR・AR・MRクリエイター　プログラマー・エンジニア　保育士　法人営業（企業向け営業）　保険会社勤務　保健師　ホテルスタッフ　マーケティングリサーチャー（マーケットリサーチャー）　メーカー営業　薬剤師　養護教諭　幼稚園教諭　理学療法士　陸海空自衛隊員　流通・小売業　旅行代理店　臨床工学技士　臨床心理士
             </div>
         </div>
 
@@ -346,12 +356,16 @@
         <div class="mobile-view wrap">
             <div class="moving-card">
                 <div class="left">
-                    <img class="left-image" src="image/for_parents/gggg3-removebg-preview.png" />
+                    <span class="border-line line-bottom"></span>
+                    <span class="border-line line-right"></span>
+                    <span class="border-line line-top"></span>
+                    <span class="border-line line-left"></span>
+                    <img class="left-image" src="image/for_parents/shikaku.png" />
                     <h2 class="title">資格一覧を見る</h2>
-                    <div class="click-link">
-                        Click
+                    <a href="https://www.thu.ac.jp/univ/qualification" class="click-link">
+                        <span class="click-text">Click</span>
                         <span class="arrow"></span>
-                    </div>
+                    </a>
                 </div>
                 <div class="mobile-hide right">
                     <p class="text">薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士
@@ -361,12 +375,17 @@
             <div class="up-spaing"></div>
             <div class="moving-card reverce">
                 <div class="left">
-                    <img class="left-image" src="image/for_parents/width_200__3_-removebg-preview.png" />
-                    <h2 class="title">資格一覧を見る</h2>
-                    <div class="click-link">
-                        Click
+                    <span class="border-line line-bottom"></span>
+                    <span class="border-line line-right"></span>
+                    <span class="border-line line-top"></span>
+                    <span class="border-line line-left"></span>
+    
+                    <img class="left-image" src="image/for_parents/shoku.png" />
+                    <h2 class="title">職業一覧を見る</h2>
+                    <a href="https://www.thu.ac.jp/career/professional/jobs" class="click-link">
+                        <span class="click-text">Click</span>
                         <span class="arrow"></span>
-                    </div>
+                    </a>
                 </div>
                 <div class="mobile-hide right">
                     <p class="text">薬剤師　看護師　保育士　幼稚園教諭一種免許状　小学校教諭一種免許状　特別支援学校教諭一種免許状　中学校教諭一種免許状　高等学校教諭一種免許状　臨床工学技士　救急救命士
@@ -376,12 +395,12 @@
         </div>
 
     </section>
-    <section class="section04 container m-b-88">
+    <section class="mobile-hide section04 container m-b-88">
         <div class="section-title-wrap m-b-30">
 
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
-                <h3 class="title">
+                <h3 class="title fontsize-33">
                     帝京平成大学は、<span>学生と先生との関係性</span>や<br />
                     <span>教育体制</span>はどうなっていますか？
                 </h3>
@@ -397,22 +416,76 @@
                             教員×学生<br />
                             の距離
                         </h2>
+                      <p class="body-copy-lg">帝京平成大学では、教員と学生が密接にコミュニケーションを取る環境を重視しています。授業や研究活動だけでなく、日常生活においても教員に相談しやすい雰囲気が醸成されています。​</p>
+                        <a class="mobileonly-web-3" href="https://www.thu.ac.jp/campuslife/teacher-student">
+                            <span style="text-decoration: underline;">教員×学生の詳細を見る</span> >
+                        </a>
+                    </div>
+                    <div class="card" onclick="setActive(this)">
+                        <h2>
+                            徹底した<br />
+                            実学習
+                        </h2>
+                          <p class="body-copy-lg">帝京平成大学では、理論と実践を融合させた「実学」を教育の柱としています。​学生は実習や演習を通じて、社会で即戦力となる知識と技術を身につけます。​​</p>
+                        <a class="mobileonly-web" href="https://www.thu.ac.jp/campuslife/teacher-student">
+                            <span style="text-decoration: underline;">教員×学生の詳細を見る</span> >
+                        </a>
+                    </div>
+                    <div class="card" onclick="setActive(this)">
+                        <h2>
+                            充実した<br />
+                            設備環境
+                        </h2>
+                        <p class="body-copy-lg">帝京平成大学では、実習室やトレーニング施設、最新機器を備えた学習環境を整えています。救急救命用設備や臨床実習室、トレーニングルームなど、現場を想定したリアルな環境で実践力を培えます。​​</p>
+                        </p>
+                        <a
+                            href="https://www.thu.ac.jp/aboutus?utm_source=chatgpt.com#:~:text=%E5%A4%A7%E5%AD%A6%20%E6%95%99%E5%93%A1%E7%B4%B9%E4%BB%8B-,%E5%85%85%E5%AE%9F%E3%81%AE%E6%96%BD%E8%A8%AD%E3%83%BB%E8%A8%AD%E5%82%99,-%E5%AE%9F%E8%B7%B5%E3%81%AB%E8%BF%91%E3%81%84">
+                            <span style="text-decoration: underline;">施設や設備情報の詳細を見る</span> >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <section class="mobile-view section04 container m-b-30">
+        <div class="section-title-wrap m-b-30">
+
+            <div class="info-box">
+                <img class="image-light" src="image/for_parents/light.png" />
+                <h3 class="title fontsize-33">
+                    帝京平成大学は、<span>学生と先生との関係性</span>や<br />
+                    <span>教育体制</span>はどうなっていますか？
+                </h3>
+            </div>
+            <div class="center-container">
+                <div style="text-align: center; width: 100%;">
+                    <h2 class="life-support-title">Educational system</h2>
+                    <h3 class="life-support-subtitle">教育体制</h3>
+                </div>
+                <div class="carousel" id="carousel">
+                    <div class="card mobile-card">
+                        <h2>
+                            教員×学生<br />
+                            の距離
+                        </h2>
                         <p>帝京平成大学では、教員と学生が密接にコミュニケーションを取る環境を重視しています。授業や研究活動だけでなく、日常生活においても教員に相談しやすい雰囲気が醸成されています。​</p>
                         <a href="https://www.thu.ac.jp/campuslife/teacher-student">
                             <span style="text-decoration: underline;">教員×学生の詳細を見る</span> &nbsp;&nbsp;&nbsp;&nbsp; 〉
                         </a>
                     </div>
-                    <div class="card active" onclick="setActive(this)">
+                    <div class="card mobile-card">
                         <h2>
                             徹底した<br />
                             実学習
                         </h2>
-                        <p>帝京平成大学では、理論と実践を融合させた「実学」を教育の柱としています。​学生は実習や演習を通じて、社会で即戦力となる知識と技術を身につけます。</p>
+                        <p class="body-copy-lg">習を通じて、社会で即戦力となる知識と技術を身につけます。</p>
                         <a href="https://www.thu.ac.jp/aboutus/practical?utm_source=chatgpt.com">
                             <span style="text-decoration: underline;">実学教育の詳細を見る</span>&nbsp;&nbsp;&nbsp;&nbsp; 〉
                         </a>
                     </div>
-                    <div class="card" onclick="setActive(this)">
+                    <div class="card mobile-card">
                         <h2>
                             充実した<br />
                             設備環境
@@ -427,12 +500,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div class="dots">
-            <span class="dot" onclick="setActive(0)"></span>
-            <span class="dot active" onclick="setActive(1)"></span>
-            <span class="dot" onclick="setActive(2)"></span>
-        </div> -->
     </section>
     <section class="section05">
         <div class="box-container-box">
@@ -446,9 +513,9 @@
                 <div class="section-title-wrap m-b-30">
                     <div class="info-box">
                         <img class="image-light" src="image/for_parents/light.png" />
-                        <h3 class="title">
-                            帝京平成大学のキャンパスでは<br>どんな<span>学生生活</span>
-                            が送れるのですか？
+                        <h3 class="title fontsize-33">
+                            帝京平成大学のキャンパスでは<br />
+                            どんな<span>学生生活</span>が送れるのですか？
                         </h3>
                     </div>
                 </div>
@@ -457,27 +524,32 @@
                         <img src="image/for_parents/width_1600.png" />
                     </div>
                     <div class="campus-dec">
-                        <h3 class="main-title" style="
-                        font-weight: 300;
+                        <h3 class="life-support-title" style="
+                        /* font-weight: 300; */
                         font-family: 'Saira Condensed', sans-serif !important;
                     ">Campus Life</h3>
-                        <h3 class="section-subtitle m-b-22">キャンパスライフ</h3>
+                        <h3 class="life-support-subtitle m-b-22">キャンパスライフ</h3>
 
-                        <p>帝京平成大学では、授業だけでなく、キャンパスイベントやサークル活動を通じて、学生一人ひとりがのびのびと成長しています。</p>
-                        <p class="m-b-22">学びと青春が詰まった大学生活の様子をご覧ください。</p>
+                        <p class="m-b-22 body-copy-lg">帝京平成大学では、授業だけでなく、キャンパスイベントやサークル活動を通じて、学生一人ひとりがのびのびと成長しています。学びと青春が詰まった大学生活の様子をご覧ください。</p>
 
                         <a href="https://www.thu.ac.jp/campuslife"
-                            class="card-btn card-text"><span>キャンパスライフの詳細を見る</span> 〉</a>
+                            class="card-btn card-text card-1">キャンパスライフの詳細を見る ></a>
                     </div>
                 </div>
-                <div class="button-box">
-                    <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text"><span> 資料請求ページを見る</span>
-                        〉</a>
-                    <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text"><span>
-                            オープンキャンパス情報を見る</span> 〉</a>
-                    <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text"><span> インターネット出願の詳細を見る</span>
-                        〉</a>
-                </div>
+                  <div class="button">
+            <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text card-1 m-l-60 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                資料請求ページを見る >
+            </a>
+            <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text card-1 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                オープンキャンパス情報を見る >
+            </a>
+            <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text card-1 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                インターネット出願の詳細を見る >
+            </a>
+        </div>
             </div>
 
         </div>
@@ -512,37 +584,49 @@
     </section>
     <br />
     <br />
-    <section class=" life-support-section container section04 m-b-88">
-        <div class="section-title-wrap">
+    <section class="life-support-section container section04 m-b-88">
+        <div class="section-title-wrap m-b-30">
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
-                <h3 class="title">
+                <h3 class="title fontsize-33">
                     帝京平成大学には、学生生活を送るうえでの </span><br />
                     <span>生活面のサポート</span>はありますか？
                 </h3>
             </div>
         </div>
         <!-- Life Support Section -->
-        <div class="">
-            <div class="third-background-image"></div>
+            <div class="third-background-image mobile-hide"></div>
             <h2 class="life-support-title">Life support</h2>
             <h3 class="life-support-subtitle">生活支援</h3>
 
             <div class="mobile-hide support-item">
-                <div class="support-content">
-                    <div class="support-image">
-                        <img src="image/for_parents/width_200 (1).webp" alt="住まい" />
-                    </div>
-                    <div class="support-text">
-                        <div class="support-header">
-                            <h3 class="support-heading">住まい</h3>
-                            <a href="https://www.thu.ac.jp/campuslife/dormitory" class="support-button">
-                                <span>住まいの詳細を見る</span>&nbsp;&nbsp;&nbsp;&nbsp; 〉
-                            </a>
+                                        <div class="gif-container">
+                            <div class="gif-right m-t-400">
+                            <img class="gif"  src="image/for_parents/circle1.gif" alt="animation01">
+                            </div>
                         </div>
-                        <p class="support-description">
-                            初めての一人暮らしでも安心して過ごせるよう、4社の提携先を駆使して住まいをサポート。キャンパス敷地内の女子学生寮は、家具・家電付きの個室や、寮長・寮母の常駐による生活サポートで、健康的で安全な学生生活を支えます。
-                        </p>
+                        <div class="gif-container">
+                            <div class="gif-left  m-t-150">
+                            <img class="gif" src="image/for_parents/circle1.gif" alt="animation02">
+                            </div>
+                        </div>
+
+                <div class="support-content">
+                    <div class="gif-container-text">
+                        <div class="support-image">
+                            <img src="image/for_parents/width_200 (1).webp" alt="住まい" />
+                        </div>
+                        <div class="support-text">
+                            <div class="support-header">
+                                <h3 class="support-heading m-l-60">住まい</h3>
+                                <a href="https://www.thu.ac.jp/campuslife/dormitory" class="support-button card-1">
+                                    住まいの詳細を見る >
+                                </a>
+                            </div>
+                            <p class="support-description m-l-60 body-copy-lg">
+                                初めての一人暮らしでも安心して過ごせるよう、4社の提携先を駆使して住まいをサポート。キャンパス敷地内の女子学生寮は、家具・家電付きの個室や、寮長・寮母の常駐による生活サポートで、健康的で安全な学生生活を支えます。
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -550,16 +634,16 @@
             <div class="mobile-hide support-item">
                 <div class="support-content">
                     <div class="support-image">
-                        <img src="image/for_parents/width_200 (2).webp" alt="健康" />
+                        <img src="image/for_parents/width_1288.webp" alt="健康" />
                     </div>
                     <div class="support-text">
                         <div class="support-header">
-                            <h3 class="support-heading">健康</h3>
-                            <a href="https://www.thu.ac.jp/career/support" class="support-button">
-                                <span>付属関連機関・施設の詳細を見る</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉
+                            <h3 class="support-heading m-l-60">健康</h3>
+                            <a href="https://www.thu.ac.jp/career/support" class="support-button card-1">
+                                付属関連機関・施設の詳細を見る >
                             </a>
                         </div>
-                        <p class="support-description">
+                        <p class="support-description m-l-60 body-copy-lg">
                             保健室と学生相談室を各キャンパスに設置。健康相談・応急処置・定期健康診断に加え、心の悩みにも専門スタッフが対応し、学生の心と身体の安心と安全を支えます。
                         </p>
                     </div>
@@ -568,14 +652,14 @@
             <div class="mobile-view container">
                 <div class="housing-card">
                     <h3 class="housing-title">住まい</h3>
-                    <p class="housing-description">
+                    <p class="housing-description body-copy-lg">
                         初めての一人暮らしでも安心して過ごせるよう、4社の提携先を駆使して住まいをサポート。キャンパス敷地内の女子学生寮は、家具・家電付きの個室や、寮長・寮母の常駐による生活サポートで、健康的で安全な学生生活を支えます。
                     </p>
                 </div>
             </div>
             <div class="mobile-view" style="display: flex; justify-content: center; margin: 20px 0;">
                 <a href="https://www.thu.ac.jp/campuslife/dormitory"
-                    class="mobile-view card-btn-mobile card-text"><span>住まいの詳細を見る</span> 〉</a>
+                    class="mobile-view card-btn-mobile card-text"><span>住まいの詳細を見る</span> ></a>
             </div>
 
 
@@ -583,7 +667,7 @@
             <div class="mobile-view container image-spacing">
                 <div class="housing-card">
                     <h3 class="housing-title">健康</h3>
-                    <p class="housing-description">
+                    <p class="housing-description body-copy-lg">
                         保健室と学生相談室を各キャンパスに設置。健康相談・応急処置・定期健康診断に加え、心の悩みにも専門スタッフが対応し、学生の心と身体の安心と安全を支えます。
                     </p>
                 </div>
@@ -598,13 +682,13 @@
 
     </section>
 
-    <section class="container section04 m-b-88">
+    <section class="container section04">
         <div class="section-title-wrap">
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
-                <h3 class="title">
-                    帝京平成大学への通学や訪問にあたって、<br><span>大学までのアクセス</span>
-                    が知りたいです
+                <h3 class="title fontsize-33">
+                    帝京平成大学への通学や訪問にあたって<br/>
+                    <span>大学までのアクセス</span>が知りたいです
                 </h3>
             </div>
         </div>
@@ -613,70 +697,120 @@
 
             <div class="access-title">
                 <h2 class="main-title main-title-access">Access</h2>
-                <p class="life-support-subtitle">アクセス情報</p>
+                <div class="mobile-hide support-item">
+                    <p class="life-support-subtitle">アクセス情報</p>
+                </div>
+                <div class="mobile-view support-item">
+                    <p class="life-support-subtitle-mobile">アクセス情報</p>
+                </div>
+
             </div>
 
             <img src="image/for_parents/train.png" alt="Train Right" class="train-icon" />
         </div>
         <!-- Campus Facility Section -->
         <div class="mobile-view campus-facility-section">
-            <div class="facility-title-full-width">
-                <h2 class=" facility-main-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 池袋キャンパス</h2>
-            </div>
-            <div class="facility-content">
-                <h3 class="facility-subtitle">都心で実学を学ぶ、<br>池袋キャンパス</h3>
-            </div>
             <div class="campus-carousel-container">
-                <div class="facility-image-container">
+                <div class="facility-image-container m-b-10">
                     <button class="nav-arrow nav-arrow-left">
                         <img src="image/for_parents/arrowleft.png" alt="Previous" class="arrow-image">
                     </button>
                     <button class="nav-arrow nav-arrow-right">
-                        <img style="margin-left: 14px;" src="image/for_parents/arrowright-removebg-preview.png"
+                        <img src="image/for_parents/arrowright-removebg-preview.png"
                             alt="Next" class="arrow-image">
                     </button>
                     <div class="campus-content active">
+                        <div class="facility-title-full-width">
+                            <h2 class=" facility-main-title">池袋キャンパス</h2>
+                        </div>
+                        <div class="facility-content">
+                            <h3 class="facility-subtitle">複数路線が乗り入れる、<br>アクセスに優れたキャンパス</h3>
+                        </div>
                         <div class="facility-image-wrapper">
                             <img src="image/for_parents/parent_width.webp" alt="池袋キャンパス" class="facility-image">
                         </div>
+                        <div class="facility-description">
+                            <p class="facility-text body-copy-lg">
+                                地下1階、地上10階建てのキャンパスでは、学びのための実習室や学内で技術を身につけることができる医療施設はもちろんのこと、免震構造や地域環境に配慮した最先端のシステムにより、安全で快適なキャンパスライフを提供します。
+                            </p>
+                        </div>
+                        <a href="https://www.thu.ac.jp/campuslife/campusmap/map_ikebukuro">
+                        <p style="font-size: 18px;
+                           border-top: 1px solid #19327C;
+                           border-bottom: 1px solid #19327C;
+                           text-align: center;
+                        color: #19327C;
+                        margin: 0;
+                    ">
+                            池袋キャンパスの詳細ページを見る ›
+                        </p>
+                        </a>
                     </div>
                     <div class="campus-content">
+                        <div class="facility-title-full-width">
+                            <h2 class=" facility-main-title">中野キャンパス</h2>
+                        </div>
+                        <div class="facility-content">
+                            <h3 class="facility-subtitle">中野駅から徒歩9分、
+                            芸術文化の街に生まれた機能的なキャンパス</h3>
+                        </div>
                         <div class="facility-image-wrapper">
                             <img src="image/for_parents/nakano.png" alt="中野キャンパス" class="facility-image">
                         </div>
+                        <div class="facility-description">
+                            <p class="facility-text body-copy-lg">
+                                新宿から中央線快速で1駅という抜群のアクセスを誇る中野キャンパス。都心環境と芸術文化、アカデミックな環境が融合した街で、地域貢献や交流を軸とする実学重視の学びを展開。先進性あふれる空間や免震構造、最新の設備を備え、皆さんの学びへの意欲をサポートします。
+                            </p>
+                        </div>
+                        <a href="https://www.thu.ac.jp/campuslife/campusmap/map_ikebukuro">
+                        <p style="font-size: 18px;
+                           border-top: 1px solid #19327C;
+                           border-bottom: 1px solid #19327C;                        
+                           text-align: center;
+                        color: #19327C;
+                        margin: 0;
+                    ">
+                            中野キャンパスの詳細ページを見る ›
+                        </p>
+                        </a>
                     </div>
                     <div class="campus-content">
+                        <div class="facility-title-full-width">
+                            <h2 class=" facility-main-title">千葉キャンパス</h2>
+                        </div>
+                        <div class="facility-content">
+                            <h3 class="facility-subtitle">学業と部活動を両立、<br />
+                            地域に根ざした緑豊かなキャンパス</h3>
+                        </div>
+
                         <div class="facility-image-wrapper">
                             <img src="image/for_parents/chiba.png" alt="千葉キャンパス" class="facility-image">
                         </div>
+                        <div class="facility-description">
+                            <p class="facility-text body-copy-lg">
+                                広い敷地を活かしたグラウンドなど運動施設が充実する千葉キャンパスは、地域に開かれた健康づくりと交流の拠点でもあります。 医療分野のほか、教職やスポーツなど様々な専門分野の学びを展開し、 連携しあう環境のなかで着実に実践能力を育みます。
+                            </p>
+                        </div>
+                        <a href="https://www.thu.ac.jp/campuslife/campusmap/map_chiba">
+                        <p style="font-size: 18px;
+                           border-top: 1px solid #19327C;
+                           border-bottom: 1px solid #19327C;                        
+                           text-align: center;
+                        color: #19327C;
+                        margin: 0;
+                    ">
+                            千葉キャンパスの詳細ページを見る ›
+                        </p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="facility-description">
-                <p class="facility-text">
-                    JR東海道本線から徒歩約10分、約7,300㎡の広やかな学舎、都築キャンパス。敷地面積約4,000㎡、鉄筋コンクリート造り3階建ての教室棟と約20校の教室を備えた教育施設です。学生寮も完備し、実践的な教育が展開されています。
-                </p>
-            </div>
-            <p style="
-               border: 1px solid #19327C;
-               text-align: center;
-               color: #19327C;
-           ">
-                池袋キャンパスの詳細ページを見る ›
-            </p>
-           <!-- <div class="facility-footer">
-                <a href="https://www.thu.ac.jp/campuslife/campusmap/map_ikebukuro"
-                    class="facility-link">池袋キャンパスの詳細ページを見る ›</a>
-            </div> -->
         </div>
         </div>
         <!--ここからPC版-->
         <div class="mobile-hide card2">
-            <div class="watermark">豊かな知識が、実る。</div>
 
             <div class="facility-image-container">
-
-
                 <div class="img">
                     <img src="image/for_parents/arrowleft.png" alt="arrowleft" />
                     <img src="image/for_parents/parent_width.webp" style="width: 419px;" alt="card" />
@@ -685,83 +819,83 @@
 
                 <!-- ここからキャンパスコンテンツ -->
                 <div class="campus-content">
-
                     <div class="card2-content">
                         <div class="card-title m-b-10"
-                            style="border: 2px solid #0066cc; padding: 8px 15px; border-radius: 5px; text-align: center; display: inline-block; margin: -3px auto;">
+                            style="border: 2px solid #0066cc;padding: 8px 15px;border-radius: 5px;text-align: center;justify-content: center;">
                             <h2 class="facility-main-title">千葉キャンパス</h2>
                         </div>
                         <h3 class="card-text" style="
                                     color: #0066cc;
-    line-height: 1.5;
-    font-family: sans-serif;
-    margin-top: 1px;
-    margin-bottom: 18px;
-
-                                ">
-                           <div>都心で実学を学ぶ、</div> <br />
-                            <div style="margin-top: -25px;">千葉キャンパス</div>
-
-                        </h3>
-                        <p class="card-text" style="margin-top: -7px;">
-                            池袋駅東口から徒歩約10分。約7,300名の学生が学ぶ都心型キャンパス。医療・福祉・心理・教育分野の学びを中心に、救急車内処置実習室など20を超える実習室を完備し、実践的な教育を展開しています。
-                        </p>
-
-                    </div>
-                </div>
-                <div class="campus-content active">
-                    <div class="card2-content">
-                        <div class="card-title m-b-10"
-                            style="border: 2px solid #0066cc; padding: 7px 15px; border-radius: 5px; text-align: center; display: inline-block; margin: 0 auto;">
-                            <h2 class="facility-main-title" style="margin: 0;font-family: sans-serif;">池袋キャンパスss</h2>
-                        </div>
-                        <h3 class="card-text" style="
-                                    color: #0066cc;
-                                    line-height: 1.9;
+                                    line-height: 1.3;
                                     font-family: sans-serif;
                                     margin-top: -1px;
                                     margin-bottom: 15px;
                                 ">
-                            都心で実学を学ぶ、<br />
-                            池袋キャンパス
+                            学業と部活動を両立、<br />
+                            地域に根ざした緑豊かなキャンパス
                         </h3>
-                        <p class="card-text">
-                            池袋駅東口から徒歩約10分。約7,300名の学生が学ぶ都心型キャンパス。医療・福祉・心理・教育分野の学びを中心に、救急車内処置実習室など20を超える実習室を完備し、実践的な教育を展開しています。
+                        <p class="card-text body-copy-lg" style="margin-top: 22px;">
+                            広い敷地を活かしたグラウンドなど運動施設が充実する千葉キャンパスは、地域に開かれた健康づくりと交流の拠点でもあります。 医療分野のほか、教職やスポーツなど様々な専門分野の学びを展開し、 連携しあう環境のなかで着実に実践能力を育みます。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="campus-content active">
+                    <div class="card2-content">
+                        <div class="card-title m-b-10"
+                        style="border: 2px solid #0066cc;padding: 8px 15px;border-radius: 5px;text-align: center;justify-content: center;">
+                            <h2 class="facility-main-title">
+                                池袋キャンパス</h2>
+                        </div>
+                        <h3 class="card-text" style="
+                                    color: #0066cc;
+                                    line-height: 1.3;
+                                    font-family: sans-serif;
+                                    margin-top: 0px;
+                                    margin-bottom: 15px;
+                                ">
+                            複数路線が乗り入れる、<br />
+                            アクセスに優れたキャンパス
+                        </h3>
+                        <p class="card-text body-copy-lg" style="
+                        margin-top: 22px;
+                    ">
+                            地下1階、地上10階建てのキャンパスでは、学びのための実習室や学内で技術を身につけることができる医療施設はもちろんのこと、免震構造や地域環境に配慮した最先端のシステムにより、安全で快適なキャンパスライフを提供します。
                         </p>
                     </div>
                 </div>
                 <div class="campus-content">
                     <div class="card2-content">
                         <div class="card-title m-b-10"
-                            style="border: 2px solid #0066cc; padding: 8px 15px; border-radius: 5px; text-align: center; display: inline-block; margin: -3px auto;">
-                            <h2 class="facility-main-title" style="margin: 0;font-family: sans-serif;">中野キャンパス</h2>
+                            style="border: 2px solid #0066cc; padding: 8px 15px; border-radius: 5px; text-align: center; justify-content: center;">
+                            <h2 class="facility-main-title">中野キャンパス</h2>
                         </div>
                         <h3 class="card-text" style="
                                     color: #0066cc;
-                                    line-height: 1.9;
+                                    line-height: 1.3;
                                     font-family: sans-serif;
                                     margin-top: -1px;
                                     margin-bottom: 15px;
                                 ">
-                            都心で実学を学ぶ、<br />
-                            中野キャンパス
+                            中野駅から徒歩9分、<br />
+                            芸術文化の街に生まれた機能的なキャンパス
                         </h3>
-                        <p class="card-text">
-                            池袋駅東口から徒歩約10分。約7,300名の学生が学ぶ都心型キャンパス。医療・福祉・心理・教育分野の学びを中心に、救急車内処置実習室など20を超える実習室を完備し、実践的な教育を展開しています。
+                        <p class="card-text body-copy-lg" style="
+                        margin-top: 22px;
+                    ">
+                            新宿から中央線快速で1駅という抜群のアクセスを誇る中野キャンパス。都心環境と芸術文化、アカデミックな環境が融合した街で、地域貢献や交流を軸とする実学重視の学びを展開。先進性あふれる空間や免震構造、最新の設備を備え、皆さんの学びへの意欲をサポートします。
                         </p>
 
                     </div>
                 </div>
-
             </div>
-
         </div>
-      <div class="info-box-2">
+        <Br>
+        <div class="info-box-2 mobile-hide">
             <a href="https://www.thu.ac.jp/campuslife/campusmap/map_ikebukuro">
-                <h3 class="title">池袋キャンパスの詳細ページを見る ></h3>
+            <h3 class="title2">池袋キャンパスの詳細ページを見る ></h3>
             </a>
-        </div> 
-
+        </div>
     </section>
 
     <section class="container section04">
@@ -771,7 +905,7 @@
         <div class="section-title-wrap m-b-30">
             <div class="info-box">
                 <img class="image-light" src="image/for_parents/light.png" />
-                <h3 class="title">
+                <h3 class="title fontsize-33">
                     帝京平成大学卒業後の<br />
                     <span>進路やキャリア支援</span>はどうなっていますか？
                 </h3>
@@ -782,28 +916,21 @@
             <h3 class="life-support-subtitle">キャリア</h3>
         </div>
         <section class="career-section">
-            <div class="image-container m-b-30">
+            <div class="image-container m-b-22s">
                 <img src="image/for_parents/width_1288.webp" alt="Career support image" />
 
                 <div class="image-placeholder"></div>
 
             </div>
-            <p style="text-align: left;">
-                年次から段階的にキャリア教育を実施し、将来の進路選択をサポートしています。就職ガイダンス、個別相談、学内企業説明会などを通じて、学生の希望に合った進路実現を丁寧に支援します。
+            <p class="body-copy-lg" style="text-align: left;">
+                １年次から段階的にキャリア教育を実施し、将来の進路選択をサポートしています。就職ガイダンス、個別相談、学内企業説明会などを通じて、学生の希望に合った進路実現を丁寧に支援します。
             </p>
 
             <div style="display: flex; justify-content: center; margin: 20px 0;">
-                <a href="https://www.thu.ac.jp/career/support" class="card-btn card-text" style="
-                    width: 316px !important;
-                    font-size: 20px;
-                "><span>キャリアの詳細を見る</span> 〉</a>
-            </div>
-            <div class="info-box">
-                <img src="image/for_parents/ligntbuzz.png" />
-                <h3 class="title">
-                    帝京平成大学の入試や大学の<br /><span>最新情報</span>
-                    はどこを見ればいいですか?
-                </h3>
+                <a href="https://www.thu.ac.jp/career/support" class="mobile-hide card-1 card-btn card-text">
+                キャリアの詳細を見る ></a>
+                <a href="https://www.thu.ac.jp/career/support" class="mobile-view card-btn-mobile-2 card-text">
+                <span>キャリアの詳細を見る</span> 〉</a>
             </div>
         </section>
 
@@ -820,82 +947,84 @@
         border: 1px solid #2d4a95;
         padding: 23px;
     "> <br>
-            <li class="new">
+            <li class="new" style="justify-content: flex-start!important;">
                 <div class="new-status section-subtitle">お知らせ</div>
-                <h3 class="section-subtitle" style="margin-right: 232px !important;font-size: 19px;">2025.03.11
+                <h3 class="section-subtitle" style="margin-right: 232px;">2025.03.11
                     &nbsp;&nbsp;&nbsp;&nbsp; 一般選抜Ⅲ期
                     合否照会(3/11(火)13:00~3/18(火)23:59)</h3>
 
             </li>
-            <li class="new">
+            <li class="new" style="justify-content: flex-start!important;">
                 <div class="new-status section-subtitle">お知らせ</div>
-                <h3 class="section-subtitle" style="margin-right: 13px !important;font-size: 19px;">2025.02.28
+                <h3 class="section-subtitle" style="margin-right: 13px;">2025.02.28
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     3月6日(木)·7日(金) &nbsp;&nbsp;&nbsp;&nbsp; 一般選抜Ⅲ期 千葉キャンパス会場のバスダイヤを掲載しました。</h3>
 
             </li>
-            <li class="new">
+            <li class="new" style="justify-content: flex-start!important;">
                 <div class="new-status section-subtitle">お知らせ</div>
-                <h3 class="section-subtitle" style="margin-right: 230px !important;font-size: 19px;">2025.01.11
+                <h3 class="section-subtitle" style="margin-right: 230px;">2025.01.11
                     &nbsp;&nbsp;&nbsp;&nbsp; 一般選抜Ⅲ期
                     合否照会(3/11(火)13:00~3/18(火)23:59)</h3>
 
             </li>
-            <li class="new">
+            <li class="new" style="justify-content: flex-start!important;">
                 <div class="new-status section-subtitle">お知らせ</div>
-                <h3 class="section-subtitle" style="margin-right: 232px !important;font-size: 19px;">2025.03.11
+                <h3 class="section-subtitle" style="margin-right: 232px">2025.03.11
                     &nbsp;&nbsp;&nbsp;&nbsp; 一般選抜Ⅲ期
                     合否照会(3/11(火)13:00~3/18(火)23:59)</h3>
 
             </li>
-            <li class="new">
+            <li class="new" style="justify-content: flex-start!important;">
                 <div class="new-status section-subtitle">お知らせ</div>
-                <h3 class="section-subtitle" style="margin-right: 10px !important;font-size: 19px;">2025.02.28
+                <h3 class="section-subtitle" style="margin-right: 10px;">2025.02.28
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     3月6日(木)·7日(金) &nbsp;&nbsp;&nbsp;&nbsp; 一般選抜Ⅲ期 千葉キャンパス会場のバスダイヤを掲載しました。</h3>
 
             </li><br>
         </ul><br>
-        <a href="" class="mobile-hide card-btn card-text"><span>一覧を見る</span>　〉</a>
+        <a href="" class="mobile-hide card-1 card-btn card-text">一覧を見る ></a>
         <div class="mobile-view" style="display: flex; justify-content: center; margin: 20px 0;">
-            <a href="" class="mobile-view card-btn-mobile-5 card-text"
+            <a href="" class="mobile-view card-btn-mobile-2 card-text"
                 style="display: flex; align-items: center; justify-content: center; text-align: center;">
                 <span class="mobile-view"
-                    style="text-decoration: underline; text-decoration-color: var(--white); text-decoration-thickness: 2px;">一覧を見る</span>&nbsp;&nbsp;&nbsp;
-                <p class="mobile-view">〉</p>
+                    style="text-decoration: none; text-decoration-color: var(--white); text-decoration-thickness: 2px;">一覧を見る
+                &nbsp;〉</span>
             </a>
         </div>
     </section>
-    <section class="mobile-hide  section04 m-b-88">
-
-        <div class="acb-container">
-            <div class="acb-content">
-                <div class="acb-left">
-                    <h1 class="acb-main-title">
+    <section class="mobile-hide container m-b-88">
+        <div class="parent_hero m-b-90">
+            <!-- <div class="acb-content"> -->
+                <div class="left">
+                    <h1 class="hero-title">
                         実学で育てる、<br />
                         確かな力と人間力。
                     </h1>
-                    <h2 class="acb-subtitle" style="color: #2D4A95;">- 未来を託せる学びが、ここにある。-</h2>
+                    <h2 class="section-subtitle" style="color: #2D4A95;">- 未来を託せる学びが、ここにある。-</h2>
                 </div>
-                <div class="acb-right">
+                <div class="right">
                     <img src="assets/img/for_parents/width_5243.jpg" alt="Students in modern learning environment"
                         class="acb-image" />
                 </div>
 
-            </div>
+            <!-- </div> -->
 
         </div>
         <br>
-        <div class="acb-container button">
-            <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text" style="
-            width: 229px;
-        "><span>資料請求ページを見る</span> 〉</a>
-            <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text" style="
-            width: 314px;
-        "><span>オープンキャンパス情報を見る</span> 〉</a>
-            <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text" style="
-            width: 354px;
-        "><span>インターネット出願の詳細を見る</span> 〉</a>
+          <div class="button">
+            <a href="https://www.thu.ac.jp/contact/request" class="card-btn card-text card-1 m-l-60 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                資料請求ページを見る >
+            </a>
+            <a href="https://www.thu.ac.jp/exam/opencampus" class="card-btn card-text card-1 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                オープンキャンパス情報を見る >
+            </a>
+            <a href="https://www.thu.ac.jp/exam/web" class="card-btn card-text card-1 m-r-60"
+                style="display: flex; justify-content: center; align-items: center;">
+                インターネット出願の詳細を見る >
+            </a>
         </div>
     </section>
     <section class="container mobile-view">
@@ -906,10 +1035,13 @@
             <p class="gif-move-3">– 未来を託せる学びが、ここにある。 –</p>
         </div>
     </section>
+
     <!-- Tuition Animations Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script src="assets/js/tuition-animations-2.js"></script>
+    <script src="assets/js/tuition-animations.js"></script>
+
+
     <script>
         // Campus carousel (vanilla JS): arrow click -> toggle slide + console log
         document.addEventListener('DOMContentLoaded', function () {
@@ -1072,22 +1204,47 @@
                     });
                     slides[i].classList.add('active');
                     slides[i].style.display = 'block';
+                    
                     const data = currentImageData(i);
                     if (cardImg && data.src) {
                         cardImg.src = data.src;
                         cardImg.alt = data.alt;
                     }
-                    if (campusLinkTitle) {
+
+                    // ▼▼▼ リンク更新処理 ▼▼▼
+                    // 更新対象の<a>タグ自体を取得しておく必要があります
+                    const campusLinkAnchor = document.querySelector('.info-box-2 a');
+
+                    if (campusLinkAnchor) { // <a>タグが見つかった場合のみ実行
+                        // 1. リンクテキストの配列
                         const labels = [
                             '千葉キャンパスの詳細ページを見る >',
                             '池袋キャンパスの詳細ページを見る >',
                             '中野キャンパスの詳細ページを見る >'
                         ];
-                        campusLinkTitle.textContent = labels[i] || labels[0];
+                        
+                        // 2. リンクURLの配列（labelsと同じ順番で）
+                        const urls = [
+                            'https://www.thu.ac.jp/campuslife/campusmap/map_chiba',  // 千葉のURL
+                            'https://www.thu.ac.jp/campuslife/campusmap/map_ikebukuro', // 池袋のURL
+                            'https://www.thu.ac.jp/campuslife/campusmap/map_nakano'    // 中野のURL
+                        ];
+
+                        // 3. テキストとURLの両方を更新
+                        const campusLinkTitle = campusLinkAnchor.querySelector('h3.title2'); // <a>タグの中からh3を探す
+                        
+                        if(campusLinkTitle) {
+                            campusLinkTitle.textContent = labels[i] || labels[0];
+                        }
+                        campusLinkAnchor.href = urls[i] || urls[0];
                     }
+                    // ▲▲▲ 更新処理ここまで ▲▲▲
+
                     const textSnippet = data.paraText ? ` | Text: ${data.paraText.substring(0, 80)}...` : '';
                     console.log(`[Campus Carousel-PC] Slide ${i + 1}/${slides.length}: ${data.alt} -> ${data.src}${textSnippet}`);
                 }
+
+                // Wire button-based arrows if present
 
                 const imgLeft = facility.querySelector('.img img[alt="arrowleft"]');
                 const imgRight = facility.querySelector('.img img[alt="arrowright"]');
@@ -1112,29 +1269,6 @@
             });
         });
     </script>
-
 </body>
-<script>
-    const cards = document.querySelectorAll(".card");
-    const dots = document.querySelectorAll(".dot");
-    let activeIndex = 1;
-
-    function setActive(index) {
-        activeIndex = index;
-
-        cards.forEach((card, i) => {
-            card.classList.remove("active");
-            card.style.display = i === index || i === index - 1 || i === index + 1 ? "block" : "none";
-        });
-
-        cards[index].classList.add("active");
-
-        dots.forEach((dot) => dot.classList.remove("active"));
-        dots[index].classList.add("active");
-    }
-
-    // Initial visibility
-    setActive(activeIndex);
-</script>
-
 </html>
+

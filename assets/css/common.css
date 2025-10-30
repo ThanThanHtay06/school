@@ -11,16 +11,31 @@
     --vidvid_azure : #18cde5;
     --vidvid_red : #f62723;
     --peach : #ffbd59;
+    /* --Japanese_font:   "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, sans-serif; */
     --japanese_font : 'Tazugane Gothic HondaMKTA Med', sans-serif;
     --english_font : 'Saira Condensed', sans-serif;
 }
+    /* font-family: "Tazugane Gothic HondaMKTA Med"; */
+/* *{
+    font-family: "Saira Condensed', sans-serif";
+} */
+
 
 *{
+    /* font-family:   "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, sans-serif;; */
     font-family: "Tazugane Gothic HondaMKTA Med";
+}
+
+.m-t-0{
+    margin-top: 0px !important;
 }
 
 .m-b-10{
     margin-bottom: 10px !important;
+}
+
+.m-b-22 {
+    margin-bottom: 30px;
 }
 
 .m-b-60{
@@ -32,11 +47,45 @@
 }
 
 .m-b-88{
-    margin-bottom: 88px !important;
+    margin-bottom: 80px !important;
 }
+
+.m-l-60{
+    margin-left: 60px !important;
+}
+@media (max-width: 995px) {
+.m-l-60{
+    margin-right: 20px !important;
+}
+}
+
+.m-r-50{
+    margin-right: 50px !important;
+}
+
+.m-r-60{
+    margin-right: 60px !important;
+}
+@media (max-width: 995px) {
+.m-r-60{
+    margin-right: 20px !important;
+}
+}
+
 
 .p-b-80{
     padding-bottom: 80px !important;
+}
+
+.m-b-88{
+    margin-bottom: 88px !important;
+}
+
+.m-t-150{
+    padding-top: 150px !important;
+}
+.m-t-400{
+    padding-top: 400px !important;
 }
 
 .container{
@@ -61,11 +110,12 @@
     color: var(--turquoise);
 }
 
-.section-subtitle{
+.section-subtitle {
     font-family: var(--japanese_font);
-    font-weight: regular;
+    font-weight: regular; /* ← "regular" を "normal" に修正 */
     font-size: 21.8px;
     color: var(--blue);
+    margin-bottom: 0; /* ← これで正しく適用されるはずです */
 }
 
 .text-center{
@@ -123,7 +173,8 @@
 }
 
 .card-title h2 , .watermark{
-    font-family: var(--japanese_font);
+  font-family:   "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, sans-serif;
+  font-weight: 500; /* Windowsでの細くなりすぎるのを防ぎ、読みやすくします */
     color: var(--white);
     font-size: 18.5px;
     background-color: var(--blue);
@@ -132,7 +183,9 @@
 }
 
 .card-text{
+  /* font-family:   "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, sans-serif; */
     font-family: var(--japanese_font);
+    font-weight: 500; /* Windowsでの細くなりすぎるのを防ぎ、読みやすくします */
     color: var(--black);
     font-size: 16px;
 }
@@ -143,11 +196,13 @@
     border-radius: 50px;
     display: block;
     text-align: center;
-    color: var(--white);
+    color: var(--white) !important;
 }
 
 .card-btn span{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+  /* padding: 10px 10px; */
+  font-size: clamp(12px, 2.5vw, 16px);
 }
 
 .devide-line .line{
@@ -238,7 +293,7 @@
 .card2 .img{
     position: relative;
     z-index: 1;
-    margin-top: 14px;
+    /* margin-top: 14px; */
 }
 
 .img::after {
@@ -255,9 +310,14 @@
 .card2 .card-title h2{
     background-color: transparent;
     color: var(--blue);
+    /* font-size: 2vw; */
     font-size: 33.5px;
     padding: 0;
     height: 37px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+    font-weight: bold; */
 }
 
 .card2 .card-title h3{
@@ -269,11 +329,19 @@
 .card2 .card-title{
     border: none;
     gap: 0;
+    width:100%;
+  /* display: block !important;  */
+  border-radius: 0 !important;
+  text-align: center !important;
+
 }
 
 .card2-content{
     margin-left: 20px;
     margin-top: 20px;
+    display: center;
+    flex-direction: column; /* 子要素を縦に並べる */
+    align-items: flex-start; /* ★子要素を左端に揃える */
 }
 
 .card2 .card-btn{
@@ -440,8 +508,10 @@ input[type="checkbox"] {
 }
 
 .news .card-btn{
-    width: 16%;
+    max-width: 13%;
     margin: auto;
+align-items: center;
+/* display: flex; */
 }
 
 .qna-lists{
