@@ -190,19 +190,40 @@
     font-size: 16px;
 }
 
-.card-btn{
-    padding: 10px 0px;
+/* Base button styles with perfect centering */
+.card-btn, .btn, button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 25px;
     background: var(--turquoise);
     border-radius: 50px;
-    display: block;
-    text-align: center;
     color: var(--white) !important;
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'YuGothic', 'Yu Gothic', 'メイリオ', Meiryo, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.3s ease;
 }
 
-.card-btn span{
-    /* text-decoration: underline; */
-  /* padding: 10px 10px; */
-  font-size: clamp(12px, 2.5vw, 16px);
+/* Ensure all button text is centered */
+.card-btn span, .btn span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(14px, 2.5vw, 16px);
+    line-height: 1.2;
+}
+
+/* Hover effect for all buttons */
+.card-btn:hover, .btn:hover, button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
 }
 
 .devide-line .line{
